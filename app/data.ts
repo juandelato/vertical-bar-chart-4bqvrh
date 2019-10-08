@@ -570,3 +570,513 @@ export var game = [
     "value": 8
   }
 ];
+
+export var playerevalhistory = [
+  {
+    "name": "Total",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 51.5
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 48.75
+      },
+      {
+        "name": new Date("2018-09-15"),
+        "value": 48.5
+      },
+      {
+        "name": new Date("2018-06-15"),
+        "value": 48.58
+      }
+    ]
+  },
+  {
+    "name": "Game",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 65
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 60
+      },
+      {
+        "name": new Date("2018-09-15"),
+        "value": 58
+      },
+      {
+        "name": new Date("2018-06-15"),
+        "value": 58
+      }
+    ]
+  },
+  {
+    "name": "Mental",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 50
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 45
+      },
+      {
+        "name": new Date("2018-09-15"),
+        "value": 47
+      },
+      {
+        "name": new Date("2018-06-15"),
+        "value": 44
+      }
+    ]
+  },
+  {
+    "name": "Technical",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 45
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 40
+      },
+      {
+        "name": new Date("2018-09-15"),
+        "value": 39
+      },
+      {
+        "name": new Date("2018-06-15"),
+        "value": 42.3
+      }
+    ]
+  },
+  {
+    "name": "Fysical",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 46
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 50
+      },
+      {
+        "name": new Date("2018-09-15"),
+        "value": 50
+      },
+      {
+        "name": new Date("2018-06-15"),
+        "value": 50
+      }
+    ]
+  }
+  
+];
+
+export var playerpolarchart = [
+  {
+    "name": "15/04/2019",
+    "series": [
+      {
+        "name": "Game",
+        "value": 65
+      },
+      {
+        "name": "Technical",
+        "value": 60
+      },
+      {
+        "name": "Mental",
+        "value": 58
+      },
+      {
+        "name": "Fysical",
+        "value": 58
+      },
+      {
+        "name": "General",
+        "value": 58
+      }
+    ]
+  },{
+    "name": "15/01/2019",
+    "series": [
+      {
+        "name": "Game",
+        "value": 51.5
+      },
+      {
+        "name": "Technical",
+        "value": 55
+      },
+      {
+        "name": "Mental",
+        "value": 48.5
+      },
+      {
+        "name": "Fysical",
+        "value": 60
+      },
+      {
+        "name": "General",
+        "value": 50
+      }
+    ]
+  }
+  
+];
+
+export var playerskills = [
+  {
+    "name": "Basistechnieken 1ste aanpak RV",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 7
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "Trappen van beslissende voorzet",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 6
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek pass LV",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 4
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek pass RV",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 4
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 4
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek lob/voorzet LV",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 7
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 7
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek lob/voorzet RV",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 8
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 7
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek wreef LV",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 4
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek wreef RV",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 7
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "Algemeen balgevoel",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 6
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "Basistechnieken 1ste aanpak LV",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 5
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 4
+      }
+    ]
+  },
+  {
+    "name": "Inspeelpass",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 6
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "Winnende duels",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 5
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "Tackling gepast/ongepast",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 5
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 7
+      }
+    ]
+  },
+  
+  
+];
+
+export var playerskillsvaluelist = [
+  {
+    "name": "Basistechnieken 1ste aanpak RV",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 3
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Trappen van beslissende voorzet",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 2
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek pass LV",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 1
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek pass RV",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 1
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 0
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek lob/voorzet LV",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 2
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek lob/voorzet RV",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 3
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek wreef LV",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 2
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek wreef RV",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 2
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Algemeen balgevoel",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 1
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Basistechnieken 1ste aanpak LV",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 3
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Inspeelpass",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 2
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Winnende duels",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 1
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Tackling gepast/ongepast",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 1
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 0
+      }
+    ]
+  },
+  
+  
+];
