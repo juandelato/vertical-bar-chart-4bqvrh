@@ -1,0 +1,95 @@
+<div style="float:left">
+<ngx-charts-bar-vertical
+  [view]="view"
+  [scheme]="colorScheme9"
+  [results]="game"
+  [gradient]="gradient"
+  [xAxis]="showXAxis"
+  [yAxis]="showYAxis"
+  [legend]="showLegend"
+  [showXAxisLabel]="showXAxisLabel"
+  [showYAxisLabel]="showYAxisLabel"
+  [xAxisLabel]="xAxisLabel"
+  [yAxisLabel]="yAxisLabel"
+  (select)="onSelect($event)"
+  [yScaleMax]="10"
+  [noBarWhenZero]="false">
+</ngx-charts-bar-vertical>
+</div>
+
+<div style="float:left"><ngx-charts-bar-vertical
+  [view]="view"
+  [scheme]="colorScheme9"
+  [results]="total"
+  [gradient]="gradient"
+  [xAxis]="showXAxis"
+  [yAxis]="showYAxis"
+  [legend]="showLegend"
+  [showXAxisLabel]="showXAxisLabel"
+  [showYAxisLabel]="showYAxisLabel"
+  [xAxisLabel]="xAxisLabel"
+  [yAxisLabel]="'%'"
+  (select)="onSelect($event)"
+  [yScaleMax]="10"
+  [noBarWhenZero]="false"
+  [legendTitle]="false">
+</ngx-charts-bar-vertical>
+</div>
+
+<div style="float:left">
+<ngx-charts-bar-vertical-2d
+  [view]="view"
+  [scheme]="colorScheme9"
+  [results]="multitotalvaluelist"
+  [gradient]="gradient"
+  [xAxis]="showXAxis"
+  [yAxis]="showYAxis"
+  [legend]="false"
+  [showXAxisLabel]="showXAxisLabel"
+  [showYAxisLabel]="showYAxisLabel"
+  [xAxisLabel]="xAxisLabel"
+  [yAxisLabel]="'Beoordeling (-/--/+/++)'"
+  (select)="onSelect($event)"
+  [yAxisTickFormatting]="yAxisTickFormatting"
+  [yScaleMax]="3"
+  [noBarWhenZero]="false"
+  [legendTitle]="false">
+</ngx-charts-bar-vertical-2d>
+</div>
+<div style="float:left">
+<ngx-charts-bar-vertical-2d
+  [view]="view"
+  [scheme]="colorScheme5"
+  [results]="multivaluelist"
+  [gradient]="gradient"
+  [xAxis]="showXAxis"
+  [yAxis]="showYAxis"
+  [showXAxisLabel]="showXAxisLabel"
+  [showYAxisLabel]="showYAxisLabel"
+  [xAxisLabel]="xAxisLabel"
+  [yAxisLabel]="'Beoordeling (-/--/+/++)'"
+  (select)="onSelect($event)"
+  [yAxisTickFormatting]="yAxisTickFormatting"
+  [yScaleMax]="3"
+  [noBarWhenZero]="false">
+</ngx-charts-bar-vertical-2d>
+</div>
+
+<div style="float:left">
+<ngx-charts-bar-vertical
+  [view]="view"
+  [scheme]="colorScheme9"
+  [results]="total"
+  [gradient]="gradient"
+  [xAxis]="showXAxis"
+  [yAxis]="showYAxis"
+  [legend]="showLegend"
+  [showXAxisLabel]="showXAxisLabel"
+  [showYAxisLabel]="showYAxisLabel"
+  [xAxisLabel]="xAxisLabel"
+  [yAxisLabel]="yAxisLabel"
+  (select)="onSelect($event)"
+  [yScaleMax]="10"
+  [noBarWhenZero]="false">
+</ngx-charts-bar-vertical>
+</div>
