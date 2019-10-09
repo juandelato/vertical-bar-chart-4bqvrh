@@ -1080,3 +1080,277 @@ export var playerskillsvaluelist = [
   
   
 ];
+
+export var comparepolarchart = [
+  {
+    "name": "Player 1",
+    "series": [
+      {
+        "name": "Game",
+        "value": 65
+      },
+      {
+        "name": "Technical",
+        "value": 60
+      },
+      {
+        "name": "Mental",
+        "value": 58
+      },
+      {
+        "name": "Fysical",
+        "value": 58
+      },
+      {
+        "name": "General",
+        "value": 58
+      }
+    ]
+  },{
+    "name": "Player 2",
+    "series": [
+      {
+        "name": "Game",
+        "value": 51.5
+      },
+      {
+        "name": "Technical",
+        "value": 55
+      },
+      {
+        "name": "Mental",
+        "value": 48.5
+      },
+      {
+        "name": "Fysical",
+        "value": 60
+      },
+      {
+        "name": "General",
+        "value": 50
+      }
+    ]
+  }
+  
+];
+
+export var comparelinechart = [
+  {
+    "name": "Player 1",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 51.5
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 48.75
+      },
+      {
+        "name": new Date("2018-09-15"),
+        "value": 48.5
+      },
+      {
+        "name": new Date("2018-06-15"),
+        "value": 48.58
+      }
+    ]
+  },
+  {
+    "name": "Player 2",
+    "series": [
+      {
+        "name": new Date("2019-04-15"),
+        "value": 65
+      },
+      {
+        "name": new Date("2019-01-15"),
+        "value": 60
+      },
+      {
+        "name": new Date("2018-09-15"),
+        "value": 58
+      },
+      {
+        "name": new Date("2018-06-15"),
+        "value": 58
+      }
+    ]
+  },
+  
+  
+];
+
+export var comparevaluelist = [
+  {
+    "name": "Basistechnieken 1ste aanpak RV",
+    "series": [
+      {
+        "name": "Player 1",
+        "value": 3
+      },
+      {
+        "name": "Player 2",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Trappen van beslissende voorzet",
+    "series": [
+      {
+        "name": "Player 1",
+        "value": 2
+      },
+      {
+        "name": "Player 2",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek pass LV",
+    "series": [
+      {
+        "name": "Player 1",
+        "value": 1
+      },
+      {
+        "name": "Player 2",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek pass RV",
+    "series": [
+      {
+        "name": "Player 1",
+        "value": 1
+      },
+      {
+        "name": "Player 2",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek lob/voorzet LV",
+    "series": [
+      {
+        "name": "Player 1",
+        "value": 2
+      },
+      {
+        "name": "Player 2",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek lob/voorzet RV",
+    "series": [
+      {
+        "name": "Player 1",
+        "value": 3
+      },
+      {
+        "name": "Player 2",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek wreef LV",
+    "series": [
+      {
+        "name": "Player 1",
+        "value": 2
+      },
+      {
+        "name": "Player 2",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Traptechniek wreef RV",
+    "series": [
+      {
+        "name": "Player 1",
+        "value": 2
+      },
+      {
+        "name": "Player 2",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Algemeen balgevoel",
+    "series": [
+      {
+        "name": "Player 1",
+        "value": 1
+      },
+      {
+        "name": "Player 2",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Basistechnieken 1ste aanpak LV",
+    "series": [
+      {
+        "name": "Player 1",
+        "value": 3
+      },
+      {
+        "name": "Player 2",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Inspeelpass",
+    "series": [
+      {
+        "name": "Player 1",
+        "value": 2
+      },
+      {
+        "name": "Player 2",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Winnende duels",
+    "series": [
+      {
+        "name": "Player 1",
+        "value": 1
+      },
+      {
+        "name": "Player 2",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Tackling gepast/ongepast",
+    "series": [
+      {
+        "name": "Player 1",
+        "value": 1
+      },
+      {
+        "name": "Player 2",
+        "value": 0
+      }
+    ]
+  },
+  
+  
+];

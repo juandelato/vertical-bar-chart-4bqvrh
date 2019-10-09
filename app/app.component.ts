@@ -11,7 +11,9 @@ import { playerevalhistory } from "./data";
 import { playerpolarchart } from "./data";
 import { playerskills } from "./data";
 import { playerskillsvaluelist } from "./data";
-
+import { comparepolarchart } from "./data";
+import { comparelinechart } from "./data";
+import { comparevaluelist } from "./data";
 
 
 @Component({
@@ -55,6 +57,13 @@ export class AppComponent {
       "#00bdab",
       "#45acc5",
       "#869ab3"
+    ]
+  };
+
+  colorScheme2 = {
+    domain: [
+      "#bfbc05",
+      "#45acc5"
     ]
   };
 
@@ -108,6 +117,9 @@ export class AppComponent {
     this.playerpolarchart = playerpolarchart;
     this.playerskills = playerskills;
     this.playerskillsvaluelist = playerskillsvaluelist;
+    this.comparepolarchart = comparepolarchart;
+    this.comparelinechart = comparelinechart;
+    this.comparevaluelist = comparevaluelist;
     Object.assign(this, { multitotalvaluelist });
   }
 
