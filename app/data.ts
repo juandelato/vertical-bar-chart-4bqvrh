@@ -64,6 +64,69 @@ export var total = [
 export var multitotalvaluelist = [
   {
     "name": "Player 1",
+    "value": 0
+  },
+  {
+    "name": "Player 2",
+    "value": 2.5
+  },
+  {
+    "name": "Player 3",
+    "value": 1
+  },
+  {
+    "name": "Player 4",
+    "value": 2.5
+  },
+  {
+    "name": "Player 5",
+    "value": 1.5
+  },
+  {
+    "name": "Player 6",
+    "value": 2
+  },
+  {
+    "name": "Player 7",
+    "value": 3
+  },
+  {
+    "name": "Player 8",
+    "value": 1
+  },
+  {
+    "name": "Player 9",
+    "value": 1
+  },
+  {
+    "name": "Player 10",
+    "value": 2.5
+  },
+  {
+    "name": "Player 11",
+    "value": 1.5
+  },
+  {
+    "name": "Player 12",
+    "value": 2
+  },
+  {
+    "name": "Player 13",
+    "value": 3
+  },
+  {
+    "name": "Player 14",
+    "value": 1
+  },
+  {
+    "name": "Player 15",
+    "value": 2
+  }
+];
+
+export var multitotalvaluelist2 = [
+  {
+    "name": "Player 1",
     "series": [
       {
         "name": "Total",

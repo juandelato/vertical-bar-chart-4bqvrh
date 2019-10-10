@@ -7,6 +7,7 @@ import { game } from "./data";
 import { valuelist } from "./data";
 import { multivaluelist } from "./data";
 import { multitotalvaluelist } from "./data";
+import { multitotalvaluelist2 } from "./data";
 import { playerevalhistory } from "./data";
 import { playerpolarchart } from "./data";
 import { playerskills } from "./data";
@@ -113,6 +114,7 @@ export class AppComponent {
     this.game = game;
     this.total = total;
     this.multivaluelist = multivaluelist;
+    this.multitotalvaluelist2 = multitotalvaluelist2;
     this.playerevalhistory = playerevalhistory;
     this.playerpolarchart = playerpolarchart;
     this.playerskills = playerskills;

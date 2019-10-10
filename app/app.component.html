@@ -39,10 +39,30 @@
 </div>
 <h2>Subtype - waardelijst</h2>
 <div style="float:left; width:100%;">
+<ngx-charts-bar-vertical
+  [view]="[1000,500]"
+  [scheme]="colorScheme9"
+  [results]="multitotalvaluelist"
+  [gradient]="gradient"
+  [xAxis]="showXAxis"
+  [yAxis]="showYAxis"
+  [legend]="false"
+  [showXAxisLabel]="showXAxisLabel"
+  [showYAxisLabel]="false"
+  [xAxisLabel]="xAxisLabel"
+  [yAxisLabel]="''"
+  (select)="onSelect($event)"
+  [yAxisTickFormatting]="yAxisTickFormatting"
+  [yScaleMax]="3"
+  [noBarWhenZero]="false"
+  [legendTitle]="false">
+</ngx-charts-bar-vertical>
+</div>
+<div style="float:left; width:100%;">
 <ngx-charts-bar-vertical-2d
   [view]="view"
   [scheme]="colorScheme9"
-  [results]="multitotalvaluelist"
+  [results]="multitotalvaluelist2"
   [gradient]="gradient"
   [xAxis]="showXAxis"
   [yAxis]="showYAxis"
