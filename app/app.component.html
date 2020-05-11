@@ -19,6 +19,26 @@
 </ngx-charts-bar-vertical>
 </div>
 
+<h2>Total - subtype - custom colors</h2>
+<div style="float:left; width:100%;">  
+<ngx-charts-bar-vertical
+  [view]="view"
+  
+  [results]="gameCustomColors"
+  [gradient]="gradient"
+  [xAxis]="showXAxis"
+  [yAxis]="showYAxis"
+  [showXAxisLabel]="showXAxisLabel"
+  [showYAxisLabel]="false"
+  [xAxisLabel]="xAxisLabel"
+  [yAxisLabel]="yAxisLabel"
+  (select)="onSelect($event)"
+  [yScaleMax]="5"
+  [noBarWhenZero]="false"
+  [customColors]="barChartCustomColors">
+</ngx-charts-bar-vertical>
+</div>
+
 <h2>Total - subtype</h2>
 <div style="float:left; width:100%;">  
 <ngx-charts-bar-vertical

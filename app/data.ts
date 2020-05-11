@@ -571,6 +571,69 @@ export var valuelist = [
   }
 ];
 
+export var gameCustomColors = [
+  {
+    "name": "Player 1",
+    "value": 2
+  },
+  {
+    "name": "Player 2",
+    "value": 1
+  },
+  {
+    "name": "Player 3",
+    "value": 2
+  },
+  {
+    "name": "Player 4",
+    "value": 5
+  },
+  {
+    "name": "Player 5",
+    "value": 5
+  },
+  {
+    "name": "Player 6",
+    "value": 4
+  },
+  {
+    "name": "Player 7",
+    "value": 4
+  },
+  {
+    "name": "Player 8",
+    "value": 3
+  },
+  {
+    "name": "Player 9",
+    "value": 3
+  },
+  {
+    "name": "Player 10",
+    "value": 4
+  },
+  {
+    "name": "Player 11",
+    "value": 2
+  },
+  {
+    "name": "Player 12",
+    "value": 5
+  },
+  {
+    "name": "Player 13",
+    "value": 1
+  },
+  {
+    "name": "Player 14",
+    "value": 1
+  },
+  {
+    "name": "Player 15",
+    "value": 2
+  }
+];
+
 export var game = [
   {
     "name": "Player 1",
