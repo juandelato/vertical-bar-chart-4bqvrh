@@ -67,12 +67,12 @@ export class AppComponent {
 
   colorScheme6 = {
     domain: [
-      "#bfbc05ff",
-      "#45acc5ff",
-      "#f06449ff",
-      "#2e5266ff",
-      "#a1d2ceff",
-      "#297373ff"
+      "#bfbc05",
+      "#45acc5",
+      "#f06449",
+      "#2e5266",
+      "#a1d2ce",
+      "#297373"
     ]
   };
   
