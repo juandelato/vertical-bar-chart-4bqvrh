@@ -1,7 +1,8 @@
-import { Component, NgModule } from "@angular/core";
+import { Component, NgModule, ViewChild } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { NgxChartsModule } from "@swimlane/ngx-charts";
 import * as shape from 'd3-shape';
+import { CustomLinerChartService } from "./CustomLinerChartService";
 import { total } from "./data";
 import { game } from "./data";
 import { gameCustomColors } from "./data";
@@ -135,8 +136,11 @@ export class AppComponent {
   closedCurve: any = this.curves[this.closedCurveType];
   closedInterpolationTypes = ['Basis Closed', 'Cardinal Closed', 'Catmull Rom Closed', 'Linear Closed'];
   playerCustomColor: any;
+  @ViewChild('chart') chart: any;
 
-  constructor() {
+  constructor( 
+    private customLinerChartService:CustomLinerChartService) {
+      this.highlights = this.highlights_copy;
     this.game = game;
     this.gameCustomColors = gameCustomColors;
     this.total = total;
@@ -165,10 +169,18 @@ export class AppComponent {
     })
     
     
+    
 
   
     
   }
+  ngAfterViewInit() {
+		this.customLinerChartService.showDots(this.chart);
+	}
+
+  
+
+  
 
   yAxisTickFormatting(val) {
     switch(val){
@@ -201,4 +213,5 @@ export class AppComponent {
   onSelect(event) {
     console.log(event);
   }
+
 }

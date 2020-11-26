@@ -1,269 +1,282 @@
-
-  <h1>Teamstats</h1>
-  <h2>Total - total</h2>
-<div style="float:left; width:100%;"><ngx-charts-bar-vertical
-  [view]="view"
-  [scheme]="colorScheme9"
-  [results]="total"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="showYAxisLabel"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="'%'"
-  (select)="onSelect($event)"
-  [yScaleMax]="10"
-  [noBarWhenZero]="false"
-  [legendTitle]="false">
-</ngx-charts-bar-vertical>
+<h1>Teamstats</h1>
+<h2>Total - total</h2>
+<div style="float:left; width:100%;">
+  <ngx-charts-bar-vertical
+    [view]="view"
+    [scheme]="colorScheme9"
+    [results]="total"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="'%'"
+    (select)="onSelect($event)"
+    [yScaleMax]="10"
+    [noBarWhenZero]="false"
+    [legendTitle]="false"
+  >
+  </ngx-charts-bar-vertical>
 </div>
 
 <h2>Total - subtype - custom colors</h2>
-<div style="float:left; width:100%;">  
-<ngx-charts-bar-vertical
-  [view]="view"
-  
-  [results]="gameCustomColors"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="false"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="yAxisLabel"
-  (select)="onSelect($event)"
-  [yScaleMax]="5"
-  [noBarWhenZero]="false"
-  [customColors]="barChartCustomColors">
-</ngx-charts-bar-vertical>
+<div style="float:left; width:100%;">
+  <ngx-charts-bar-vertical
+    [view]="view"
+    [results]="gameCustomColors"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="false"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="yAxisLabel"
+    (select)="onSelect($event)"
+    [yScaleMax]="5"
+    [noBarWhenZero]="false"
+    [customColors]="barChartCustomColors"
+  >
+  </ngx-charts-bar-vertical>
 </div>
 
 <h2>Total - subtype</h2>
-<div style="float:left; width:100%;">  
-<ngx-charts-bar-vertical
-  [view]="view"
-  [scheme]="colorScheme6"
-  [results]="game"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="false"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="yAxisLabel"
-  (select)="onSelect($event)"
-  [yScaleMax]="10"
-  [noBarWhenZero]="false">
-</ngx-charts-bar-vertical>
+<div style="float:left; width:100%;">
+  <ngx-charts-bar-vertical
+    [view]="view"
+    [scheme]="colorScheme6"
+    [results]="game"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="false"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="yAxisLabel"
+    (select)="onSelect($event)"
+    [yScaleMax]="10"
+    [noBarWhenZero]="false"
+  >
+  </ngx-charts-bar-vertical>
 </div>
 <h2>Subtype - waardelijst</h2>
 <div style="float:left; width:100%;">
-<ngx-charts-bar-vertical
-  [view]="[1000,500]"
-  [scheme]="colorScheme9"
-  [results]="multitotalvaluelist"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [legend]="false"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="false"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="''"
-  (select)="onSelect($event)"
-  [yAxisTickFormatting]="yAxisTickFormatting"
-  [yScaleMax]="3"
-  [noBarWhenZero]="false"
-  [legendTitle]="false">
-</ngx-charts-bar-vertical>
+  <ngx-charts-bar-vertical
+    [view]="[1000,500]"
+    [scheme]="colorScheme9"
+    [results]="multitotalvaluelist"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [legend]="false"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="false"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="''"
+    (select)="onSelect($event)"
+    [yAxisTickFormatting]="yAxisTickFormatting"
+    [yScaleMax]="3"
+    [noBarWhenZero]="false"
+    [legendTitle]="false"
+  >
+  </ngx-charts-bar-vertical>
 </div>
 <div style="float:left; width:100%;">
-<ngx-charts-bar-vertical-2d
-  [view]="view"
-  [scheme]="colorScheme9"
-  [results]="multitotalvaluelist2"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [legend]="false"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="false"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="''"
-  (select)="onSelect($event)"
-  [yAxisTickFormatting]="yAxisTickFormatting"
-  [yScaleMax]="3"
-  [noBarWhenZero]="false"
-  [legendTitle]="false">
-</ngx-charts-bar-vertical-2d>
+  <ngx-charts-bar-vertical-2d
+    [view]="view"
+    [scheme]="colorScheme9"
+    [results]="multitotalvaluelist2"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [legend]="false"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="false"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="''"
+    (select)="onSelect($event)"
+    [yAxisTickFormatting]="yAxisTickFormatting"
+    [yScaleMax]="3"
+    [noBarWhenZero]="false"
+    [legendTitle]="false"
+  >
+  </ngx-charts-bar-vertical-2d>
 </div>
 <div style="float:left; width:100%;">
-<ngx-charts-bar-vertical-2d
-  [view]="view"
-  [scheme]="colorScheme5"
-  [results]="multivaluelist"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="false"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="'Beoordeling (-/--/+/++)'"
-  (select)="onSelect($event)"
-  [yAxisTickFormatting]="yAxisTickFormatting"
-  [yScaleMax]="3"
-  [noBarWhenZero]="false">
-</ngx-charts-bar-vertical-2d>
-</div>
-
-<div style="float:left; width:100%;">
-<ngx-charts-bar-vertical
-  [view]="view"
-  [scheme]="colorScheme9"
-  [results]="total"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [legend]="false"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="showYAxisLabel"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="yAxisLabel"
-  (select)="onSelect($event)"
-  [yScaleMax]="10"
-  [noBarWhenZero]="false">
-</ngx-charts-bar-vertical>
+  <ngx-charts-bar-vertical-2d
+    [view]="view"
+    [scheme]="colorScheme5"
+    [results]="multivaluelist"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="false"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="'Beoordeling (-/--/+/++)'"
+    (select)="onSelect($event)"
+    [yAxisTickFormatting]="yAxisTickFormatting"
+    [yScaleMax]="3"
+    [noBarWhenZero]="false"
+  >
+  </ngx-charts-bar-vertical-2d>
 </div>
 
 <div style="float:left; width:100%;">
-<ngx-charts-line-chart
-  [view]="view"
-  [scheme]="colorScheme5"
-  [results]="playerevalhistory"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [legend]="true"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="showYAxisLabel"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="'%'"
-  (select)="onSelect($event)"
-  [yScaleMax]="100">
-</ngx-charts-line-chart>
+  <ngx-charts-bar-vertical
+    [view]="view"
+    [scheme]="colorScheme9"
+    [results]="total"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [legend]="false"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="yAxisLabel"
+    (select)="onSelect($event)"
+    [yScaleMax]="10"
+    [noBarWhenZero]="false"
+  >
+  </ngx-charts-bar-vertical>
 </div>
 
 <div style="float:left; width:100%;">
-<ngx-charts-polar-chart
-  [view]="[700, 500]"
-  [scheme]="colorScheme2"
-  [results]="playerpolarchart"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [legend]="true"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="showYAxisLabel"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="'%'"
-  [curve]="closedCurve"
-  (select)="onSelect($event)"
-  [roundDomains]="false">
-</ngx-charts-polar-chart>
+  <ngx-charts-line-chart
+    [view]="view"
+    [scheme]="colorScheme5"
+    [results]="playerevalhistory"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [legend]="true"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="'%'"
+    (select)="onSelect($event)"
+    [yScaleMax]="100"
+  >
+  </ngx-charts-line-chart>
 </div>
 
 <div style="float:left; width:100%;">
-<ngx-charts-bar-vertical-2d
-  [view]="view"
-  [scheme]="colorScheme2"
-  [results]="playerskills"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="false"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="'Beoordeling (-/--/+/++)'"
-  (select)="onSelect($event)"
-  [noBarWhenZero]="false"
-  [legend]="true">
-</ngx-charts-bar-vertical-2d>
+  <ngx-charts-polar-chart
+    [view]="[700, 500]"
+    [scheme]="colorScheme2"
+    [results]="playerpolarchart"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [legend]="true"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="'%'"
+    [curve]="closedCurve"
+    (select)="onSelect($event)"
+    [roundDomains]="false"
+  >
+  </ngx-charts-polar-chart>
 </div>
 
 <div style="float:left; width:100%;">
-<ngx-charts-bar-vertical-2d
-  [view]="view"
-  [scheme]="colorScheme2"
-  [results]="playerskillsvaluelist"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="false"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="'Beoordeling (-/--/+/++)'"
-  (select)="onSelect($event)"
-  [yAxisTickFormatting]="yAxisTickFormatting"
-  [yScaleMax]="3"
-  [noBarWhenZero]="false"
-  [legend]="true">
-</ngx-charts-bar-vertical-2d>
+  <ngx-charts-bar-vertical-2d
+    [view]="view"
+    [scheme]="colorScheme2"
+    [results]="playerskills"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="false"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="'Beoordeling (-/--/+/++)'"
+    (select)="onSelect($event)"
+    [noBarWhenZero]="false"
+    [legend]="true"
+  >
+  </ngx-charts-bar-vertical-2d>
 </div>
 
 <div style="float:left; width:100%;">
-<ngx-charts-polar-chart
-  [view]="[700, 500]"
-  [scheme]="colorScheme2"
-  [results]="comparepolarchart"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [legend]="true"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="showYAxisLabel"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="'%'"
-  [curve]="closedCurve"
-  (select)="onSelect($event)"
-  [roundDomains]="false">
-</ngx-charts-polar-chart>
+  <ngx-charts-bar-vertical-2d
+    [view]="view"
+    [scheme]="colorScheme2"
+    [results]="playerskillsvaluelist"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="false"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="'Beoordeling (-/--/+/++)'"
+    (select)="onSelect($event)"
+    [yAxisTickFormatting]="yAxisTickFormatting"
+    [yScaleMax]="3"
+    [noBarWhenZero]="false"
+    [legend]="true"
+  >
+  </ngx-charts-bar-vertical-2d>
 </div>
 
 <div style="float:left; width:100%;">
-<ngx-charts-line-chart
-  [view]="view"
-  [scheme]="colorScheme2"
-  [results]="comparelinechart"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [legend]="true"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="showYAxisLabel"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="'%'"
-  (select)="onSelect($event)"
-  [yScaleMax]="100">
-</ngx-charts-line-chart>
+  <ngx-charts-polar-chart
+    [view]="[700, 500]"
+    [scheme]="colorScheme2"
+    [results]="comparepolarchart"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [legend]="true"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="'%'"
+    [curve]="closedCurve"
+    (select)="onSelect($event)"
+    [roundDomains]="false"
+  >
+  </ngx-charts-polar-chart>
 </div>
 
 <div style="float:left; width:100%;">
-<ngx-charts-bar-vertical-2d
-  [view]="view"
-  [scheme]="colorScheme2"
-  [results]="comparevaluelist"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="false"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="'Beoordeling (-/--/+/++)'"
-  (select)="onSelect($event)"
-  [yAxisTickFormatting]="yAxisTickFormatting"
-  [yScaleMax]="3"
-  [noBarWhenZero]="false"
-  [legend]="true">
-</ngx-charts-bar-vertical-2d>
+  <ngx-charts-line-chart #chart
+    [view]="view"
+    [scheme]="colorScheme2"
+    [results]="comparelinechart"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [legend]="true"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="'%'"
+    (select)="onSelect($event)"
+    [yScaleMax]="100"
+  >
+  </ngx-charts-line-chart>
+</div>
+
+<div style="float:left; width:100%;">
+  <ngx-charts-bar-vertical-2d
+    [view]="view"
+    [scheme]="colorScheme2"
+    [results]="comparevaluelist"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="false"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="'Beoordeling (-/--/+/++)'"
+    (select)="onSelect($event)"
+    [yAxisTickFormatting]="yAxisTickFormatting"
+    [yScaleMax]="3"
+    [noBarWhenZero]="false"
+    [legend]="true"
+  >
+  </ngx-charts-bar-vertical-2d>
 </div>
